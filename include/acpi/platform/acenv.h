@@ -26,13 +26,7 @@
 #define DEBUGGER_SINGLE_THREADED    0
 #define DEBUGGER_MULTI_THREADED     1
 
-/******************************************************************************
- *
- * Configuration for ACPI tools and utilities
- *
- *****************************************************************************/
-
-/* Common application configuration. All single threaded except for acpi_exec. */
+/**All single threaded except for acpi_exec. */
 
 #if (defined ACPI_ASL_COMPILER) || \
 	(defined ACPI_BIN_APP)      || \
